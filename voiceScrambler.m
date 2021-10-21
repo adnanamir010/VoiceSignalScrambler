@@ -1,4 +1,3 @@
-%importing audio file
 clc;
 clear;
 close;
