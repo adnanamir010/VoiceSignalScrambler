@@ -4,7 +4,7 @@ clear;
 close;
 
 %Importing Audio File and storing sampling frequency
-[inp,fs]=audioread('C:\Users\91771\Desktop\College\sem5\SS\test5.mp3');
+[inp,fs]=audioread('<Mono Audio Location>');
 % sound(inp,fs)
 t=0:length(inp)-1;
 subplot(5,1,1);
